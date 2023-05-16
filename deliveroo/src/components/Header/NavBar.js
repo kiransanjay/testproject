@@ -37,6 +37,7 @@ function NavBar() {
     navigate("/ShopPage");
   }
 
+  
   return (
     <>
       <nav className="navbar">
