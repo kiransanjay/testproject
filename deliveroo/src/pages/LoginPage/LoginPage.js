@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import { Button } from "@mui/material";
 import { Divider } from "@mui/material";
 
-
 function LoginPage() {
   return (
     <div>

@@ -43,7 +43,7 @@ function MenuTabs() {
     fetchDataCategory();
   }, []);
 
-  const filteredData = data.filter(item => item.id !==5913);
+  const filteredData = data.filter((item) => item.id !== 5913);
 
   return (
     <div>
@@ -75,14 +75,14 @@ function MenuTabs() {
       </div> */}
       <TabContext value="menu-tabs">
         <Box sx={{ width: "100%" }}>
-          <Tabs>
+          <Tabs centered>
             {filteredData.map((item) => (
               <Tab
                 key={item.id}
                 label={item.title}
                 style={{
                   textTransform: "none",
-                  justifyContent:"",
+
                   fontSize: "14px",
                   fontFamily: "PlexSans",
                   color: "#00B8A9",

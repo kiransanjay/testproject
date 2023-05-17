@@ -225,7 +225,7 @@ function ShopPage() {
             //marginBottom: "320px",
           }}
         >
-          Bundles
+          Mains
         </Typography>
       </Grid>
       <Footer />
